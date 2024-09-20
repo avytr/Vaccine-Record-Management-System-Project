@@ -1,0 +1,47 @@
+*{
+    font-family: 'Segoe UI';
+
+}
+
+.Header {
+    position: sticky;
+    background-color: #e2ededce;
+    align-items: center;
+    max-height: 8vh;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+
+.logo {
+    max-width: 7vw;
+    pointer-events: none;
+    cursor: pointer;
+    margin: 20px 10px 20px 40px;
+}
+
+.Header-nagivation{
+    color: black;
+    display: flex;
+    cursor: pointer;
+    
+}
+
+.Header-nagivation .tag {
+    margin-right: 80px;
+    
+}
+
+.Header-nagivation .tag a{
+    color: black;
+    font-size: 1vw;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.search-input {
+    border: none;
+    width: 30vw;
+    height: 30px;
+    border-radius: 5px;
+}

@@ -1,0 +1,58 @@
+.Thumbnail{
+    position: relative;
+    opacity: 0; /* Trạng thái ban đầu */  
+    animation: fade 2s forwards; /* Áp dụng hiệu ứng fade trong 2 giây */ 
+
+}
+
+@keyframes fade {  
+    from {   
+        opacity: 0;   
+    }  
+    to {   
+        opacity: 1;   
+    }  
+}  
+
+.Thumbnail img {
+    width: 100%;
+    height: 90%;
+    display: block;
+}
+
+#slogan {
+    position: relative;
+    color:#385d5a;
+    height: fit-content;
+    width:40vw;
+    top: 10%;
+    left: 15%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+
+#desc {
+    position: relative;
+    max-height: fit-content;
+    font-size: 1.5vw;
+}
+
+
+
+h1{
+    position: relative;
+    font-size: 2.7vw;
+}
+
+button {
+    font-size: 1vw;
+    width: 40%;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 5vh;
+    padding: 1vh;
+    background-color: #6ba298a4;
+    cursor: pointer;
+}

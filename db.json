@@ -1,0 +1,541 @@
+{
+    "vaccines":[
+        {
+            "id": "PF001",
+            "name": "Pfizer",
+            "quantity": 10000,
+            "country": "America",
+            "mfg": "12/2020"
+        },
+
+        {
+            "id": "VC001",
+            "name": "Vero Cell",
+            "quantity": 50000,
+            "country": "China",
+            "mfg": "1/2021"
+        },
+
+        {
+            "id": "MO001",
+            "name": "Morderna",
+            "quantity": 15000,
+            "country": "America",
+            "mfg": "11/2020"
+        },
+
+        {
+            "id": "JA001",
+            "name": "Janssen",
+            "quantity": 20000,
+            "country": "Netherlands & Belgium",
+            "mfg": "12/2020"
+        },
+
+        {
+            "id": "AZ001",
+            "name": "AstraZeneca",
+            "quantity": 70000,
+            "country": "England",
+            "mfg": "2/2021"
+        },
+
+        {
+            "id": "SV001",
+            "name": "SPUTNIK V",
+            "quantity": 25000,
+            "country": "Russia",
+            "mfg": "2/2021"
+        }
+
+    ],
+
+    "locations": [
+        {
+            "id": "Q801",
+            "name": "VRMS Quận 8",
+            "address": {
+                "number": "Tòa Green River, Khối C, Tầng 02, Số 2225",
+                "street": "Phạm Thế Hiển",
+                "ward": "6",
+                "district": "8",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            }
+        },
+
+        {
+            "id": "BT01",
+            "name": "VRMS An Lạc",
+            "address": {
+                "number": "539A - 539B",
+                "street": "Kinh Dương Vương",
+                "ward": "An Lạc",
+                "district": "Bình Tân",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            }
+        },
+
+        {
+            "id": "CC02",
+            "name": "VRMS Củ Chi 2",
+            "address": {
+                "number": "830",
+                "street": "Quốc lộ 22",
+                "ward": "Củ Chi",
+                "district": "Củ Chi",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            }
+        },
+
+        {
+            "id": "Q601",
+            "name": "VRMS Quận 6",
+            "address": {
+                "number": "245",
+                "street": "Nguyễn Văn Luông",
+                "ward": "11",
+                "district": "6",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            }
+        },
+
+        {
+            "id": "Q1201",
+            "name": "VRMS Thới An",
+            "address": {
+                "number": "109",
+                "street": "Lê Thị Riêng",
+                "ward": "Thới An",
+                "district": "12",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            }
+        },
+
+        {
+            "id": "Q901",
+            "name": "VRMQ Quận 9",
+            "address": {
+                "number": "99",
+                "street": "Lê Văn Việt",
+                "ward": "Tăng Phú Nhơn A",
+                "district": "",
+                "city": "Thủ Đức",
+                "country": "Việt Nam"
+            }
+        },
+
+        {
+            "id": "Q1001",
+            "name": "VRMS Quận 10",
+            "address": {
+                "number": "460",
+                "street": "3 tháng 2",
+                "ward": "12",
+                "district": "10",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            }
+        },
+
+        {
+            "id": "QGV01",
+            "name": "VRMS Gò Vấp",
+            "address": {
+                "number": "304A",
+                "street": "Quang Trung",
+                "ward": "11",
+                "district": "Gò Vấp",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            }
+        },
+
+        {
+            "id": "Q101",
+            "name": "VRMS Quận 1",
+            "address": {
+                "number": "235",
+                "street": "Nguyễn Văn Cừ",
+                "ward": "Nguyễn Cư Trinh",
+                "district": "1",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            }
+        }
+
+
+    ],
+
+    "records": [
+        {
+            "id": 31231020502,
+            "name": "Trần Anh Vy",
+            "birthday": "24/12/2005",
+            "gender": "Female",
+            "address": {
+                "number": "400",
+                "street": "Phú Định",
+                "ward": "16",
+                "district": "8",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            },
+            "dose1": {
+                "vaccine": {
+                    "id": "MO001",
+                    "name": "Morderna",
+                    "quantity": 10000,
+                    "country": "America",
+                    "mfg": "12/2020"
+                },
+
+                "injectionDate": "20/3/2021",
+                "adverseReaction": "",
+                "location": {
+                    "id": "Q101",
+                    "name": "VRMS Quận 1",
+                    "address": {
+                        "number": "235",
+                        "street": "Nguyễn Văn Cừ",
+                        "ward": "Nguyễn Cư Trinh",
+                        "district": "1",
+                        "city": "Hồ Chí Minh",
+                        "country": "Việt Nam"
+                    }
+                }
+            },
+
+            "dose2": {
+
+            },
+
+            "dose3": {
+
+            },
+
+            "dose4": {
+
+            }
+
+        },
+
+        {
+            "id": 31221026389,
+            "name": "Hoàng Đức Huân",
+            "birthday": "02/05/2004",
+            "gender": "Male",
+            "address": {
+                "number": "279",
+                "street": "Nguyễn Tri Phương",
+                "ward": "5",
+                "district": "10",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            },
+            "dose1": {
+                "vaccine": {
+                    "id": "PF001",
+                    "name": "Pfizer",
+                    "quantity": 10000,
+                    "country": "America",
+                    "mfg": "12/2020"
+                },
+
+                "injectionDate": "20/3/2021",
+                "adverseReaction": "",
+                "location": {
+                    "id": "Q101",
+                    "name": "VRMS Quận 1",
+                    "address": {
+                        "number": "235",
+                        "street": "Nguyễn Văn Cừ",
+                        "ward": "Nguyễn Cư Trinh",
+                        "district": "1",
+                        "city": "Hồ Chí Minh",
+                        "country": "Việt Nam"
+                    }
+                }
+            },
+
+            "dose2": {
+
+            },
+
+            "dose3": {
+
+            },
+
+            "dose4": {
+
+            }
+
+        },
+
+        {
+            "id": 31231026785,
+            "name": "Huỳnh Minh Trí",
+            "birthday": "10/03/2005",
+            "gender": "Male",
+            "address": {
+                "number": "279",
+                "street": "Nguyễn Tri Phương",
+                "ward": "5",
+                "district": "10",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            },
+            "dose1": {
+                "vaccine": {
+                    "id": "PF001",
+                    "name": "Pfizer",
+                    "quantity": 10000,
+                    "country": "America",
+                    "mfg": "12/2020"
+                },
+
+                "injectionDate": "20/3/2021",
+                "adverseReaction": "",
+                "location": {
+                    "id": "Q101",
+                    "name": "VRMS Quận 1",
+                    "address": {
+                        "number": "235",
+                        "street": "Nguyễn Văn Cừ",
+                        "ward": "Nguyễn Cư Trinh",
+                        "district": "1",
+                        "city": "Hồ Chí Minh",
+                        "country": "Việt Nam"
+                    }
+                }
+            },
+
+            "dose2": {
+
+            },
+
+            "dose3": {
+
+            },
+
+            "dose4": {
+
+            }
+
+        },
+
+        {
+            "id": 31231025969,
+            "name": "Phạm Tiến Thành",
+            "birthday": "19/07/2005",
+            "gender": "Male",
+            "address": {
+                "number": "279",
+                "street": "Nguyễn Tri Phương",
+                "ward": "5",
+                "district": "10",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            },
+            "dose1": {
+                "vaccine": {
+                    "id": "JA001",
+                    "name": "Janssen",
+                    "quantity": 70000,
+                    "country": "England",
+                    "mfg": "2/2021"
+                },
+
+                "injectionDate": "20/5/2021",
+                "adverseReaction": "",
+                "location": {
+                    "id": "Q101",
+                    "name": "VRMS Quận 1",
+                    "address": {
+                        "number": "235",
+                        "street": "Nguyễn Văn Cừ",
+                        "ward": "Nguyễn Cư Trinh",
+                        "district": "1",
+                        "city": "Hồ Chí Minh",
+                        "country": "Việt Nam"
+                    }
+                }
+            },
+
+            "dose2": {
+
+            },
+
+            "dose3": {
+
+            },
+
+            "dose4": {
+
+            }
+
+        },
+
+        {
+            "id": 31231021355,
+            "name": "Lê Nguyễn Trâm Anh",
+            "birthday": "03/04/2005",
+            "gender": "Female",
+            "address": {
+                "number": "279",
+                "street": "Nguyễn Tri Phương",
+                "ward": "5",
+                "district": "10",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            },
+            "dose1": {
+                "vaccine": {
+                    "id": "AZ001",
+                    "name": "AstraZeneca",
+                    "quantity": 70000,
+                    "country": "England",
+                    "mfg": "2/2021"
+                },
+
+                "injectionDate": "25/6/2021",
+                "adverseReaction": "",
+                "location": {
+                    "id": "Q101",
+                    "name": "VRMS Quận 1",
+                    "address": {
+                        "number": "235",
+                        "street": "Nguyễn Văn Cừ",
+                        "ward": "Nguyễn Cư Trinh",
+                        "district": "1",
+                        "city": "Hồ Chí Minh",
+                        "country": "Việt Nam"
+                    }
+                }
+            },
+
+            "dose2": {
+
+            },
+
+            "dose3": {
+
+            },
+
+            "dose4": {
+
+            }
+
+        },
+
+        {
+            "id": 31231022128,
+            "name": "Lê Vy",
+            "birthday": "22/08/2005",
+            "gender": "Female",
+            "address": {
+                "number": "279",
+                "street": "Nguyễn Tri Phương",
+                "ward": "5",
+                "district": "10",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            },
+            "dose1": {
+                "vaccine": {
+                    "id": "AZ001",
+                    "name": "AstraZeneca",
+                    "quantity": 70000,
+                    "country": "England",
+                    "mfg": "2/2021"
+                },
+
+                "injectionDate": "20/2/2021",
+                "adverseReaction": "",
+                "location": {
+                    "id": "Q101",
+                    "name": "VRMS Quận 1",
+                    "address": {
+                        "number": "235",
+                        "street": "Nguyễn Văn Cừ",
+                        "ward": "Nguyễn Cư Trinh",
+                        "district": "1",
+                        "city": "Hồ Chí Minh",
+                        "country": "Việt Nam"
+                    }
+                }
+            },
+
+            "dose2": {
+
+            },
+
+            "dose3": {
+
+            },
+
+            "dose4": {
+
+            }
+
+        },
+
+        {
+            "id": 31231022343,
+            "name": "Nguyễn Thành Danh",
+            "birthday": "22/09/2005",
+            "gender": "Male",
+            "address": {
+                "number": "279",
+                "street": "Nguyễn Tri Phương",
+                "ward": "5",
+                "district": "10",
+                "city": "Hồ Chí Minh",
+                "country": "Việt Nam"
+            },
+            "dose1": {
+                "vaccine": {
+                    "id": "AZ001",
+                    "name": "AstraZeneca",
+                    "quantity": 70000,
+                    "country": "England",
+                    "mfg": "2/2021"
+                },
+
+                "injectionDate": "22/3/2021",
+                "adverseReaction": "",
+                "location": {
+                    "id": "Q101",
+                    "name": "VRMS Quận 1",
+                    "address": {
+                        "number": "235",
+                        "street": "Nguyễn Văn Cừ",
+                        "ward": "Nguyễn Cư Trinh",
+                        "district": "1",
+                        "city": "Hồ Chí Minh",
+                        "country": "Việt Nam"
+                    }
+                }
+            },
+
+            "dose2": {
+
+            },
+
+            "dose3": {
+
+            },
+
+            "dose4": {
+
+            }
+
+        }
+    ]
+    
+    
+}
